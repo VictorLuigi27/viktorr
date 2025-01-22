@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Développeur web en stage",
+      "date": "Loluweb - Août/Octobre 2024",
+      "description": "Lors de ce stage, j'ai appris à utiliser Next.js et approfondi mes compétences en React.js et Tailwind. J'ai intégré Stripe et OpenAI dans le développement d'un site éducatif. J'ai également créé les maquettes du site."
+    },
+    {
+        "id": 2,
+        "title": "Développeur web en alternance",
+        "date": "SOS SECRET R - Novembre/Décembre 2024",
+        "description": "Au cours de cette courte période en alternance, j'ai appris à utiliser Node.js, MongoDB et Express.js pour la conception d'un site web de service de taxi. J'ai également intégré l'API Google Maps. Côté front-end, j'ai réalisé la maquette du site et amélioré mes compétences en React.js et TailwindCSS."
+    },
+    {
+        "id": 3,
+        "title": "Titre professionnel de développeur web",
+        "date": "O’clock - Janvier/Juillet 2024",
+        "description": "Pendant ces 6 mois de formation intensive, j'ai acquis les bases du développement web, notamment HTML, CSS, JavaScript, PHP et Symfony. Je me suis spécialisé dans le front-end avec React.js et Tailwind, tout en m'exerçant à créer des maquettes avec Figma"
+    },
+    {
+        "id": 4,
+        "title": "Formation de Développement web",
+        "date": "Startworkup - Novembre/Décembre 2024",
+        "description": "En parallèle de mon alternance, les cours avec l'école m'ont permis de perfectionner mes bases en développement web et de continuer à progresser en back-end, notamment avec Node.js."
+    }
+  ]
+  

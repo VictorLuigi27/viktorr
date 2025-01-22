@@ -1,0 +1,65 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+html, body {
+    box-sizing: border-box;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.GatbyGilmourRegular {
+    font-family: "GatbyGilmourRegular";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.TrenchThin {
+    font-family: "TrenchThin";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FungkaCityRegular {
+    font-family: "FungkaCityRegular";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.AlienLeagueRegular {
+    font-family: "FungkaCityRegular";
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GatbyGilmourRegular";
+    src: url("/fonts/GatsbyGilmourRegular-xR40j.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TrenchThin";
+    src: url("/fonts/TrenchThin-aZ1J.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FungkaCityRegular";
+    src: url("/fonts/FungkaCityRegular-jEJd0.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AlienLeagueRegular";
+    src: url("portfolio/public/fonts/AlienLeagueRegular-9D3Z.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
