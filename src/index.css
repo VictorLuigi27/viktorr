@@ -12,6 +12,29 @@ html, body {
     overflow: hidden;
 }
 
+/* Pour les navigateurs basés sur WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Largeur de la barre */
+  }
+  
+  /* Couleur de la piste (arrière-plan de la scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  /* Couleur du curseur (la partie mobile de la scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: #000000; /* Couleur du curseur */
+    border-radius: 5px;
+  }
+  
+  /* Quand la souris passe dessus */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff4500;
+  }
+
+
+
 .GatbyGilmourRegular {
     font-family: "GatbyGilmourRegular";
     font-weight: 400;

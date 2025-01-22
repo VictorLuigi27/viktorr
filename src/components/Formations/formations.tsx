@@ -31,7 +31,7 @@ export default function Formations() {
 
   return (
     <div className="bg-neutral-950 min-h-screen text-white px-6 py-10 lg:overflow-hidden">
-      <div className="flex flex-col lg:flex-row gap-10">
+      <div className="flex flex-col lg:flex-col lg:items-center gap-10">
         
         {/* Section Expériences */}
         <motion.div
@@ -90,7 +90,7 @@ export default function Formations() {
             .map((formation) => (
               <motion.div
                 key={formation.id}
-                className="bg-black bg-opacity-50 p-6 rounded-md shadow-lg"
+                className="bg-black bg-opacity-50 p-6 rounded-md shadow-lg" 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
