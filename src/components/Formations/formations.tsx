@@ -40,7 +40,7 @@ export default function Formations() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="GatbyGilmourRegular text-3xl text-center lg:text-center lg:mt-[5rem] lg:text-4xl lg:mb-[8rem]">
+          <p className="GatbyGilmourRegular text-3xl text-center lg:text-center lg:mt-[5rem] lg:text-4xl lg:mb-[4rem]">
             Expériences
           </p>
           {formations
@@ -77,7 +77,7 @@ export default function Formations() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="GatbyGilmourRegular mt-[5rem] text-3xl text-center lg:text-center lg:mt-[5rem] lg:text-4xl lg:mb-[8rem]">
+          <p className="GatbyGilmourRegular mt-[5rem] text-3xl text-center lg:text-center lg:mt-[5rem] lg:text-4xl lg:mb-[6rem]">
             Formations
           </p>
           {formations

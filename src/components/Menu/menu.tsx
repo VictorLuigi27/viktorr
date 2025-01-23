@@ -70,7 +70,7 @@ export default function Menu() {
         </ul>
       </motion.div>
 
-      <p className="text-center text-sm mt-[25rem]">&copy; 2025 VICTOR - Tous droits réservés.</p>
+      <p className="text-center text-sm mt-[22rem]">&copy; 2025 VICTOR - Tous droits réservés.</p>
     </div>
   );
 }
