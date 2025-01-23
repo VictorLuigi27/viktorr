@@ -48,19 +48,14 @@ export default function Formations() {
             .map((formation) => (
               <motion.div
                 key={formation.id}
-                className="bg-black bg-opacity-50 p-6 rounded-md shadow-lg"
+                className="bg-black bg-opacity-50 p-6 rounded-md shadow-lg cursor-pointer"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
+                onClick={() => toggleDescription(formation.id)}
               >
                 <h3 className="text-2xl font-bold">{formation.title}</h3>
                 <p className="text-gray-400">{formation.date}</p>
-                <img
-                  src="/click-logo.svg"
-                  alt="click"
-                  className="cursor-pointer w-8 h-8 mt-2 lg:ml-[58rem] ml-[19rem]"
-                  onClick={() => toggleDescription(formation.id)}
-                />
                 {visibleDescriptions[formation.id] && (
                   <motion.p
                     className="mt-2"
@@ -82,7 +77,7 @@ export default function Formations() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="GatbyGilmourRegular text-3xl text-center lg:text-center lg:mt-[5rem] lg:text-4xl lg:mb-[8rem]">
+          <p className="GatbyGilmourRegular mt-[5rem] text-3xl text-center lg:text-center lg:mt-[5rem] lg:text-4xl lg:mb-[8rem]">
             Formations
           </p>
           {formations
@@ -90,19 +85,14 @@ export default function Formations() {
             .map((formation) => (
               <motion.div
                 key={formation.id}
-                className="bg-black bg-opacity-50 p-6 rounded-md shadow-lg" 
+                className="bg-black bg-opacity-50 p-6 rounded-md shadow-lg cursor-pointer"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
+                onClick={() => toggleDescription(formation.id)}
               >
                 <h3 className="text-2xl font-bold">{formation.title}</h3>
                 <p className="text-gray-400">{formation.date}</p>
-                <img
-                  src="/click-logo.svg"
-                  alt="click"
-                  className="cursor-pointer w-8 h-8 mt-2 lg:ml-[58rem] ml-[19rem]"
-                  onClick={() => toggleDescription(formation.id)}
-                />
                 {visibleDescriptions[formation.id] && (
                   <motion.p
                     className="mt-2"

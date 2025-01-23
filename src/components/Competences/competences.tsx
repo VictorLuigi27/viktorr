@@ -20,7 +20,7 @@ export default function Competences() {
     <div className="bg-neutral-950 min-h-screen text-white flex flex-col items-center">
       <h1 className="GatbyGilmourRegular text-4xl text-center pt-20">Compétences</h1>
 
-      <div className="grid grid-cols-2 gap-10 lg:grid-cols-4 lg:gap-20 mt-16 px-8">
+      <div className="grid grid-cols-2 gap-10 lg:grid-cols-4 lg:gap-20 mt-16 px-8 mb-10">
         {skills.map((skill, index) => (
           <motion.div
             key={index}
