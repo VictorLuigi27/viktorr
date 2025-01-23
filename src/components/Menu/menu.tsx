@@ -41,7 +41,7 @@ export default function Menu() {
       </motion.h1>
 
       <motion.div
-        className="TrenchThin text-3xl text-center mt-36"
+        className="TrenchThin text-3xl text-center mt-36 lg:overflow-hidden"
         initial={{ opacity: 0, x: -100 }} // Start from the left side
         animate={{ opacity: 1, x: 0 }} // Animate to normal position
         transition={{ duration: 1, delay: 0.5 }} // Delay to make the transition smooth
@@ -70,7 +70,7 @@ export default function Menu() {
         </ul>
       </motion.div>
 
-      <p className="text-center text-sm mt-[22rem]">&copy; 2025 VICTOR - Tous droits réservés.</p>
+      <p className="text-center text-sm mt-[17rem]">&copy; 2025 VICTOR - Tous droits réservés.</p>
     </div>
   );
 }
